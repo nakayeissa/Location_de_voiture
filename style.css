@@ -1,0 +1,81 @@
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    right: 70px;
+    top: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: orange;
+    padding: 40px;
+}
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    align-items: center;
+    color: orange;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px, solid, orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+    margin: 20px;
+    font-weight: bold;
+}
+.form .link a:hover{
+    color: white;
+}
